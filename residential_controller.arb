@@ -1,0 +1,109 @@
+
+
+Class Column
+    attr.accessor :id, :status, :amount_of_floors, :amount_of_elevators
+
+    def initialize(id, status, amountOfFloors, amountOfElevator)
+        @id = id
+        @status = status
+        @amount_of_floors = amountOfFloors
+        @amount_of_elevator = amount_of_elevator
+        @elevator_list = []
+        @call_button_list = []
+
+
+        column1 = Column.new(1, "online", 10, 2)
+        puts "column id is #{column.id}, with #{column1.amount_of_elevators} elevators";
+
+    end #for testing purpose
+
+
+
+# def createCallButtons(amountOfFloors)
+#     @number_of_floor = amountOfFloors
+#     @button_floor = 1
+#     @call_button_id = 1
+
+
+# def createElevators(amountOfElevator, amountOfFloors)
+#     @number_of_elevator = amountOfElevator
+#     @elevator_id = 1
+
+
+# def requestElevator(floor, direction)
+#     elevator= findElevator(floor, direction)
+    
+    
+#     return elevator
+
+
+# def findElevator(floor, direction)
+
+
+# def checkIfElevatorIsBetter(scoreToCheck, newElevator, bestElevatorInformation, floor)
+
+
+
+# end
+
+
+
+
+# Class CallButton
+# def initialize(id, status, floor, direction)
+#     @id = id
+#     @status = status
+#     @floor = floor
+#     @direction = direction
+
+
+# end
+
+
+
+# Class Elevator
+# def initialize(id, status, amountOfFloors, currentFloor)
+#     @id = id
+#     @status = status
+#     @direction = "null"
+#     @amount_of_floor = amountOfFloors
+#     @position = currentFloor
+#     @floor_request_button = []
+#     @floor_request_list = []
+
+# def createFloorRequestButton(amountOfFloors)
+#     button_floor = 1
+
+
+# def move()
+
+
+# def sortFloorList()
+
+
+# def operateDoors()
+
+
+
+
+# end
+
+
+
+# Class Door
+# def initialize(id, status)
+#     @id = id
+#     @status = status
+    
+# end
+
+
+# Class FloorRequestButton
+# def initialize(id, status, floor)
+#     @id = id
+#     @status = status
+#     @floor = floor
+# end
+
+
+
